@@ -1,0 +1,13 @@
+<nz-input-group nzSearch nzSize="large" [nzAddOnAfter]="suffixButton">
+  <input
+    type="text"
+    nz-input
+    placeholder="input search text"
+    [(ngModel)]="message"
+  />
+</nz-input-group>
+<ng-template #suffixButton>
+  <button nz-button nzSize="large" nzSearch (click)="sendMessage()">
+    Send
+  </button>
+</ng-template>

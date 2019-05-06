@@ -1,0 +1,15 @@
+{
+  "name": "chat-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matías Pierobón Marcos <matias.pierobonm@gmail.com> (https://matias-pierobon.github.io)",
+  "license": "MIT",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "ws": "^7.0.0"
+  }
+}
